@@ -35,21 +35,6 @@
 #         result = list_1.count(Numbers2);
 # print(f"Количество повторов: {result}");
 
-# Решение другого студента
-# Number = abs(int(input('Введите количество элементов списка А: ')))
-# A_entered = input("Введите через пробел элементы списка: ").split()
-# A_num = list(map(int, A_entered))
-# if len(A_num) != Number:
-#     print('Введенные элементы не соответствуют заявленному количеству!')
-# else:
-#     X = int(input('Введите число X, которое необходимо найти в списке: '))
-#     count = 0
-#     for i in range(Number):
-#         if A_num[i] == X:
-#             count += 1
-#     print(f'Число {X} встречается в списке A {count} раз') 
-
-# Моё решение. 
 Numbers = int(input("Общее количество элеметов: "));
 list_1 = [];
 for i in range(1, Numbers + 1):
